@@ -48,7 +48,7 @@ last_stat_print  = time.time()
 BLINK_EAR_THRESHOLD = 0.20   # EAR drops below this when blinking
 SCROLL_THRESHOLD = 0.03      
 DEBOUNCE_TIME    = 0.5       
-MOUTH_OPEN_THRESHOLD = 0.03  
+MOUTH_OPEN_THRESHOLD = 0.08  
 
 # Standard MediaPipe 6-point EAR indices
 LEFT_EYE_INDICES = [33, 160, 158, 133, 153, 144]
